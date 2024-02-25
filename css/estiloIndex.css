@@ -74,6 +74,10 @@ img {
     width: 100%;
 }
 
+body{
+    background-color: #f6f6f833;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -82,9 +86,8 @@ img {
 /* + HEADER */
 
 .background__index{
-    background-color: transparent;
     padding:0;
-    background-image: url(../media/img/Banner-3.jpg);
+    background-image: url(../media/img/Index/Banner-3.jpg);
     background-color: transparent;
     height: 750px;
     background-position: top;
@@ -268,11 +271,12 @@ img {
 }
 
 .seccion4{
-    background-image: url(../media/img/LJ11.jpg);
+    background-image: url(../media/img/Index/LJ11.jpg);
     background-color: transparent;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-attachment: fixed; */
 }
 
 .seccion4__estilos{

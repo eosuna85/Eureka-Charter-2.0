@@ -74,6 +74,10 @@ img {
     width: 100%;
 }
 
+body{
+    background-color: #f6f6f833;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
