@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;500&family=Poppins:wght@300;500&display=swap&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+
+:root {
+    /* + Paleta de Colores */
+    --primary-solid: #b57d07;
+    --secundary-solid: #ed5508;
+    --transition-solid: #EF6A1F;
+    --dark-solid-1: #1F1F1F;
+    --dark-solid-2: #2B2E37;
+    --dark-solid-3: #3C3D3F;
+    --light-font-solid: #ebecef;
+
+    /* + Tipografia */
+    --base-font-family: 'Hind', sans-serif;
+    --alternative-font-family: 'Poppins', sans-serif;
+    --font-family: 'Dancing Script';
+
+    /* Tamaño de Letra */
+    --font-display: 3em;
+    --font-jumbo: 2.4em;
+    --font-xlarge: 2em;
+    --font-large: 1.8em;
+    --font-medium: 1.2em;
+    --font-small: 1em;
+    --font-xsmall: 0.8em;
+
+    /* + Espaciado */
+    --spacing-240: 24rem;
+    --spacing-200: 20rem;
+    --spacing-180: 18rem;
+    --spacing-160: 16rem;
+    --spacing-130: 13rem;
+    --spacing-100: 10rem;
+    --spacing-68: 6.8rem;
+    --spacing-36: 3.6rem;
+    --spacing-28: 2.8rem;
+    --spacing-24: 2.4rem;
+    --spacing-20: 2rem;
+    --spacing-16: 1.6rem;
+    --spacing-12: 1.2rem;
+    --spacing-8: 0.8rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: var(--base-font-family);
+    color: var(--dark-solid-1);
+}
+
+a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+
+header,
+footer {
+    font-family: var(--alternative-font-family);
+    color: var(--light-font-solid);
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+body{
+    background-color: #f6f6f833;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* + HEADER */
+
+.navbar__back{
+    background-color: var(--dark-solid-3);
+    width: 100%;
+    height: 100%;
+    padding: var(--spacing-12) 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    padding: 0 var(--spacing-8);   
+}
+
+.navbar__info {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-16);
+}
+
+.navbar__logo {
+    max-width: 10%;
+}
+
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+}
+
+.navbar__menu {
+    display: flex;
+    gap: var(--spacing-8);
+}
+
+.navbar__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__nombre {
+    font-family: var(--base-font-family);
+    font-size: var(--font-xlarge);
+    font-weight: 500;
+    text-shadow: #111112c8 6px 4px 3px;
+}
+
+.navbar__link {
+    font-size: var(--font-medium);
+    font-weight: 300;
+    padding: 0 var(--spacing-8);
+    /* display: inline; */
+    transition: .3s ease-in-out;
+    position: relative;
+    border-radius: 2px;
+    text-shadow: #111112d3 4px 3px 2px;
+}
+
+.navbar__link:hover {
+    border-bottom: solid 3px var(--secundary-solid);
+}
+
+
+/* + MAIN CONTACTO */
+
+
+
+
+
+/* + FOOTER */
+
+footer {
+    background-color: var(--dark-solid-3);
+    padding: var(--spacing-12);
+}
+
+.footer__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-8);
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
+.footer__logo {
+    max-width: 15%;
+}
+
+.footer__nombre {
+    font-family: var(--base-font-family);
+    font-size: var(--font-large);
+    font-weight: 400;
+    text-shadow: #111112c8 5px 4px 3px;
+}
+
+.footer__redes {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-8);
+}
+
+.footer__text {
+    font-family: var(--alternative-font-family);
+    font-size: var(--font-small);
+    font-weight: 300;
+    text-align: right;
+    text-shadow: #111112c8 4px 3px 2px;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: end;
+    gap: var(--spacing-12);
+}
+
+.footer__item {
+    max-width: 7%;
+    transition: transform 0.3s ease;
+}
+
+.footer__item img:hover {
+    transform: scale(1.3);
+}
+
+
+.footer__copy {
+    font-family: var(--alternative-font-family);
+    font-size: var(--font-small);
+    font-weight: 300;
+    text-align: center;
+    text-shadow: #111112c8 4px 3px 2px;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    /* + HEADER */
+
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        color: #D9DADC;
+        font-size: 1.2rem;
+        background-color: transparent;
+        cursor: pointer;
+        padding: var(--spacing-8);
+    }
+
+    .navbar__item {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .navbar__item {
+        flex-direction: column;
+        align-items: end;
+        justify-content: start;
+        gap: var(--spacing-8);
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: var(--spacing-36) var(--spacing-12);
+        background-color: var(--dark-solid-3);
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        position: absolute;
+        z-index: 3;
+    }
+
+    .navbar__item.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .navbar__link{
+        margin-top: var(--spacing-8);
+        /* margin-bottom: var(--spacing-8); */
+    }
+    .navbar__menu {
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    .submenu__link {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer__logo {
+        max-width: 30%;
+    }
+
+    .footer__nombre {
+        font-size: var(--font-large);
+        font-weight: 400;
+    }
+
+    .footer__text {
+        font-size: var(--font-small);
+        font-weight: 100;
+    }
+
+    .footer__menu {
+        gap: var(--spacing-12);
+    }
+
+    .footer__item {
+        max-width: 10%;
+    }
+
+    .footer__copy {
+        font-size: var(--font-xsmall);
+        font-weight: 100;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    
+    .footer__logo {
+        max-width: 30%;
+    }
+
+    .footer__nombre {
+        font-size: var(--font-medium);
+        font-weight: 400;
+    }
+
+    .footer__text {
+        font-size: var(--font-xsmall);
+        font-weight: 100;
+    }
+
+    .footer__menu {
+        gap: var(--spacing-12);
+    }
+
+    .footer__item {
+        max-width: 15%;
+    }
+
+    .footer__copy {
+        font-size: var(--font-xsmall);
+        font-weight: 100;
+    }
+}

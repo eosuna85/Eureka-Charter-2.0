@@ -501,6 +501,34 @@ body{
     background-color: var(--secundary-solid);
 }
 
+/* + Boton Flotante */
+
+#btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border: none;
+    outline: none;
+    background-color: var(--dark-solid-3);
+    color: var(--light-font-solid);
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 18px;
+    border: 1px solid var(--primary-solid);
+    box-shadow: 5px 4px 3px #000000c8;
+}
+
+#btn:hover {
+    color: #b57d07;
+}
+
+#svgTop{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
 
 /* + FOOTER */
 
