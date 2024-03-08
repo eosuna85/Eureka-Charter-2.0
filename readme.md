@@ -40,5 +40,6 @@
 - Iframe Youtube https://www.youtube.com/
 - API OpenWeather https://openweathermap.org/
 
+<!--![logo Eureka](./media/img/EC_logo.png) -->
 
 # Proyecto en contrucción

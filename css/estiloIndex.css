@@ -49,6 +49,18 @@
     box-sizing: border-box;
 }
 
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-family: var(--base-font-family);
     color: var(--dark-solid-1);
@@ -85,25 +97,25 @@ body{
 
 /* + HEADER */
 
+
 .background__index{
-    padding:0;
-    background-image: url(../media/img/Index/Banner-3.jpg);
+    padding: 0;
+    background-image: url(../media/img/Index/avion-al-atardecer.jpg);
     background-color: transparent;
     height: 750px;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
-    /* justify-content: space-between; */
 }
 
 .navbar__back{
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 100%;
-    padding: var(--spacing-12) 0;
+    padding: var(--spacing-16) 0;
+    position: relative;
 }
 
 .navbar {
@@ -122,6 +134,10 @@ body{
 
 .navbar__logo {
     max-width: 10%;
+}
+
+.img__logo__eureka{
+    filter: drop-shadow(#0e0e0f 4px 3px 2px);
 }
 
 .abrir-menu,
@@ -151,7 +167,6 @@ body{
     font-size: var(--font-medium);
     font-weight: 300;
     padding: 0 var(--spacing-8);
-    /* display: inline; */
     transition: .3s ease-in-out;
     position: relative;
     border-radius: 2px;
@@ -162,75 +177,23 @@ body{
     border-bottom: solid 3px var(--secundary-solid);
 }
 
-/* .chevron {
-    display: block;
-} */
-
-/* .with-icon {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-8);
-} */
-
-/* .with-submenu:hover .submenu {
-    display: block;
-} */
-
-/* .submenu {
-    display: none;
-    width: 120px;
-    position: absolute;
-    background-color: var(--dark-solid-3);
-    z-index: 3;
-    border-radius: 15px;
-} */
-
-/* .submenu__link {
-    display: block;
-    padding: var(--spacing-8);
-    font-weight: 300;
-    font-size: var(--font-xsmall);
-    transition: background .2s ease-in-out;
-    border-radius: 15px;
-} */
-
-
-/* .submenu__link:hover {
-    background-color: var(--secundary-solid);
-    border-radius: 15px;
-} */
-
 /* + HERO - INDEX*/
-
-/* .hero {
-    background-image: url(../media/img/Banner-3.jpg);
-    background-color: transparent;
-    height: 650px;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .hero__content {
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: row-reverse; */
-    justify-content: center;
-    /* padding-top: 30rem; */
-    padding-left: var(--spacing-8);
-    padding-right: var(--spacing-8);
     position: relative;
+    width: 50%;
+    left: 230px;
     z-index: 2;
 }
 
 .hero__eslogan {
-    font-size: 3.5em;
+    font-size: var(--font-display);
     color: #ffffff;
-    font-family: "Satisfy";
+    font-family: var(--alternative-font-family);
     font-weight: 300;
-    padding: var(--spacing-36);
-    /* font-style: italic; */
-    /* font-variant-caps: petite-caps; */
+    padding: var(--spacing-16);
     text-shadow: #000000da 6px 4px 3px;
     text-align: center;
 }
@@ -365,10 +328,8 @@ body{
 }
 
 .foto {
-    border-style: inset;
-    border-width: 2px;
-    border-color: #2B2E37;
     border-radius: 1250px;
+    border: 1px solid var(--primary-solid);
     box-shadow: 5px 4px 3px #000000c8;
 }
 

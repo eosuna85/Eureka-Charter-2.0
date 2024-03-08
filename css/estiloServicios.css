@@ -202,7 +202,7 @@ article {
 h3 {
     font-family: var(--base-font-family);
     font-weight: 400;
-    font-size: var(--font-large);
+    font-size: var(--font-xlarge);
     color: var(--dark-solid-1);
 }
 
