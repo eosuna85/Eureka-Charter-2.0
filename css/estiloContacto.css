@@ -148,6 +148,9 @@ body{
     border-bottom: solid 3px var(--secundary-solid);
 }
 
+.img__logo__eureka{
+    filter: drop-shadow(#0e0e0f 4px 3px 2px);
+}
 
 /* + MAIN CONTACTO */
 
@@ -247,8 +250,7 @@ body{
 .mapa__iframe {
     border-radius: 40px;
     box-sizing: border-box;
-    padding: var(--spacing-8) 0;
-    box-shadow: 5px 4px 3px #000000c8;
+    margin: var(--spacing-8) 0;
 }
 
 /* + FORMULARIO PAG CONTACTO */

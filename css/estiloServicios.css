@@ -146,7 +146,9 @@ body {
     border-bottom: solid 3px var(--secundary-solid);
 }
 
-
+.img__logo__eureka{
+    filter: drop-shadow(#0e0e0f 4px 3px 2px);
+}
 
 
 /* + MAIN CONTACTO */
@@ -195,14 +197,14 @@ article {
     display: flex;
     flex-direction: column;
     justify-items: center;
-    gap: var(--spacing-12);
+    gap: var(--spacing-8);
     justify-content: center;
 }
 
 h3 {
     font-family: var(--base-font-family);
     font-weight: 400;
-    font-size: var(--font-xlarge);
+    font-size: var(--font-large);
     color: var(--dark-solid-1);
 }
 

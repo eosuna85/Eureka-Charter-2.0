@@ -148,6 +148,10 @@ body{
     border-bottom: solid 3px var(--secundary-solid);
 }
 
+.img__logo__eureka{
+    filter: drop-shadow(#0e0e0f 4px 3px 2px);
+}
+
 /* + MAIN CONTACTO */
 
 .banner__nosotros{

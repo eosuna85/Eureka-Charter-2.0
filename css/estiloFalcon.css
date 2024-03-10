@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;500&family=Poppins:wght@300;500&display=swap&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
 
 :root {
     /* + Paleta de Colores */
@@ -15,7 +13,6 @@
     /* + Tipografia */
     --base-font-family: 'Hind', sans-serif;
     --alternative-font-family: 'Poppins', sans-serif;
-    --font-family: 'Dancing Script';
 
     /* Tamaño de Letra */
     --font-display: 3em;
@@ -146,6 +143,10 @@ body{
 
 .navbar__link:hover {
     border-bottom: solid 3px var(--secundary-solid);
+}
+
+.img__logo__eureka{
+    filter: drop-shadow(#0e0e0f 4px 3px 2px);
 }
 
 
