@@ -46,4 +46,4 @@
 
 ## - Pagina flota,falcon y beechcraft
 ## - Responsividad del sitio
-## - Enlace (forma de acceso a flota desde Index, a parte del nadvar)
+## - Enlace (forma de acceso a flota desde Index, a parte del navbar)
