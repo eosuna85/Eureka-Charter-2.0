@@ -161,7 +161,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 440px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -169,7 +169,7 @@ body{
 
 .title__nosotros {
     font-family: var(--alternative-font-family);
-    font-size: 4em;
+    font-size: 5em;
     font-weight: 300;
     color: #fdfeff;
     text-shadow: #2b2e37e9 5px 4px 3px;

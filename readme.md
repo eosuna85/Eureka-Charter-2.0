@@ -43,7 +43,6 @@
 <!--![logo Eureka](./media/img/EC_logo.png) -->
 
 # **Proyecto en contrucción**
-
-## - Pagina flota,falcon y beechcraft
+## - Pagina de Flota
 ## - Responsividad del sitio
 ## - Enlace (forma de acceso a flota desde Index, a parte del navbar)
