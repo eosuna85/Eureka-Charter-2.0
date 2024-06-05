@@ -40,9 +40,6 @@
 - Iframe Youtube https://www.youtube.com/
 - API OpenWeather https://openweathermap.org/
 
-<!--![logo Eureka](./media/img/EC_logo.png) -->
 
 # **Proyecto en contrucción**
-## - Pagina de Flota
 ## - Responsividad del sitio
-## - Enlace (forma de acceso a flota desde Index, a parte del navbar)
