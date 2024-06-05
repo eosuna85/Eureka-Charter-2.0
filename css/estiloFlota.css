@@ -273,9 +273,48 @@ body {
     /* transform: translateY(0); */
 }
 
-.galeria__flota{
+.galeria__flota { /* contenedor de la galería */
     display: flex;
+    align-items: center;
+    gap: var(--spacing-24);
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
 }
+
+.foto__galeria__flota { /* tarjeta de la galería */
+    max-width: 400px;
+    aspect-ratio: 1 / 0.6;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+}
+
+.foto__galeria__flota img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.galeria__flota::-webkit-scrollbar {
+    height: 10px;
+}
+
+.galeria__flota::-webkit-scrollbar-track {
+    background: var(--light-font-solid);
+    border-radius: 500px;
+}
+
+.galeria__flota::-webkit-scrollbar-thumb {
+    background: var(--transition-solid);
+    border-radius: 500px;
+}
+
 
 /* + FOOTER */
 
